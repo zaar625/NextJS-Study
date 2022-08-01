@@ -1,4 +1,67 @@
-{
+{   
+    "events":[
+        {
+            "id":1,
+            "title":"Event 1",
+            "description":"Description 1",
+            "category":"scripts",
+            "data":"April 25"
+        },
+        {
+            "id":1,
+            "title":"Event 2",
+            "description":"Description 2",
+            "category":"technology",
+            "data":"May 25"
+        },
+        {
+            "id":1,
+            "title":"Event 3",
+            "description":"Description 3",
+            "category":"food",
+            "data":"October 25"
+        }, {
+            "id":1,
+            "title":"Event 4",
+            "description":"Description 4",
+            "category":"sports",
+            "data":"jun 25"
+        },
+        {
+            "id":1,
+            "title":"Event 5",
+            "description":"Description 5",
+            "category":"Hi",
+            "data":"janu 25"
+        }
+    ],
+    "dashboard":{
+        "posts":5,
+        "likes":200,
+        "followers":20,
+        "following" :50
+    },
+    "news":[
+        {
+            "id":1,
+            "title":"News Article 1",
+            "description":"New Description 1",
+            "catagory":"sports"
+        },
+        {
+            "id":2,
+            "title":"News Article 2",
+            "description":"Description 2",
+            "catagory":"sports"
+        },
+        {
+            "id":3,
+            "title":"News Article 3",
+            "description":"Description 3",
+            "catagory":"sports"
+        }
+
+    ],
     "products":[
         {
             "id":1,
