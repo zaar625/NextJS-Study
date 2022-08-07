@@ -44,9 +44,11 @@ export async function getStaticPaths(){
 
 export async function getStaticProps(context){
     const {params} = context
+    // console.log(params)
     const response = await fetch (`https://jsonplaceholder.typicode.com/posts/${params.postId}`)
     const data = await response.json()
 
+    // 아래 코드를 입력 하지 않을 경우 흰 화면이 나온다. 아래코드를 입력하면, 404페이지가 나온다.
     if(!data.id) {
         return {
             notFound:true,

@@ -66,26 +66,26 @@
         {
             "id":1,
             "title":"Product 1",
-            "price": 500,
+            "price": 20000,
             "description":"Description 1"
         },
         {
             "id":2,
-            "title":"Product 1",
+            "title":"Product 2",
             "price": 2000,
-            "description":"Description 1"
+            "description":"Description 2"
         },
         {
             "id":3,
-            "title":"Product 1",
+            "title":"Product 3",
             "price": 2500,
-            "description":"Description 1"
+            "description":"Description 3"
         },
         {
             "id":4,
-            "title":"Product 1",
+            "title":"Product 4",
             "price": 3000,
-            "description":"Description 1"
+            "description":"Description 4"
         }
     ]
 }
