@@ -5,6 +5,7 @@ export default function handler(req, res){
     const {commentId} = req.query
 
     if(req.method === 'GET'){
+        // console.log(req.query)
         const comment = comments.find(
             (comment)=>comment.id === parseInt(commentId)
         )
@@ -16,7 +17,7 @@ export default function handler(req, res){
         const index = comments.findIndex(
             (comment)=> comment.id === parseInt(commentId)
         )
-        comments.slice(index, 1)
+        comments.splice(index, 1)
         res.status(200).json(deletedComment)
     }
 }
