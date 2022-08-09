@@ -8,10 +8,14 @@ import {useRouter} from 'next/router'
 function EventList({eventList}) {
     const [events, setEvents] = useState(eventList)
     const router = useRouter()
+
+    
     const fetchSortsEvents = async()=> {
+        //스포츠데이터만 가져오지 url 쿼리 주소를 변경하진 않는다.
         const response = await fetch(`http://localhost:4000/events?category=sports`)
         const data = await response.json()
         setEvents(data)
+        //따라서, url 주소를 변경하기 위해 아래 해당 라우터 푸쉬를 하는 것이다. 
         router.push('/events?category=sports', undefined, {shallow:true})
     }
     return (

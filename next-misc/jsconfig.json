@@ -1,0 +1,8 @@
+// {
+//     "compilerOptions":{
+//         "baseUrl":".",//../../component 형식처럼 사용하지 않아도 된다. 
+//         "paths":{
+//             "@/layout/*":["components/layout/*"]//components/layout/Header -> @layout/Header로 변경 (별칭 사용)
+//         }
+//     }
+// }

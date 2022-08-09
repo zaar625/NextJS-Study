@@ -28,6 +28,7 @@ export async function getStaticProps(context){
     const comment = comments.find((comment) => comment.id === parseInt(commentId))
     console.log(comment)
 
+    //정적 데이터 또는 서버 측 데이터를 가져올 때에는 자신의 API 경로를 호출 하지 않을 것을 권장한다. 
     // Don't do this
     //const reponse = await fetch(`http:localhost:3000/api/comments/${commentId})
     //const data = await response.json()
